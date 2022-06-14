@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Heading */
+.game-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF9A1F;
+}
+
+/* Imagem */
+.div-indexDino {
+    display: flex;
+    justify-content: center;
+}
+
+/* Botões */
+
+.div-indexButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div-indexButtons button {
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    background-color: #004466;
+    border: solid transparent;
+    box-shadow: 2px 2px #002E45;
+    color: #FF9A1F;
+}
+
+button a {
+    text-decoration: none;
+    color: #FF9A1F;
+}
+
+.div-indexButtons button:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    flex-shrink: 0;
+    background-color: #004466;
+    text-align: center;
+    height: 80px;
+    position: absolute;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.icones-redes {
+    margin-top: 5px;
+}
+
+.icones-redes a {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 7px;
+    font-size: 1.5em;
+}
+
+.icones-redes a:hover {
+    color: rgba(255, 255, 255)
+}
+
+
+/* ---------------------------------------  320px ------------------------------------------ */
+
+@media (min-width: 320px) {
+    .index-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-heading {
+        width: 80%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1em;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #002E45;
+        margin: 20px auto 10px;
+    }
+
+    .div-indexDino {
+        margin: auto;
+    }
+
+    .img-indexDino {
+        width: 200px;
+        height: 246px;
+        margin: 6px auto 5px;
+    }
+
+    .div-indexButtons {
+        flex-direction: column;
+        margin: 10px auto 0;
+        width: 100%;
+    }
+
+    .div-indexButtons button {
+        width: 80%;
+        height: 50px;
+        margin: 5px auto;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+}
+
+/* ---------------------------------------  376px ------------------------------------------ */
+
+@media (min-width: 375px) {
+    .index-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 1em;
+        margin: 30px auto 10px;
+    }
+
+    .div-indexDino {
+        margin: auto;
+    }
+
+    .img-indexDino {
+        width: 200px;
+        height: 246px;
+        margin: 15px auto 5px;
+
+    }
+
+    .div-indexButtons {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .div-indexButtons button {
+        width: 80%;
+        height: 60px;
+        margin: 5px auto;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+/* ---------------------------------------  414px ------------------------------------------ */
+@media (min-width: 414px) {
+    .game-heading {
+        margin: 40px auto 10px;
+        font-size: 44px;
+        width: 80%;
+    }
+
+    .img-indexDino {
+        margin: 30px auto 20px;
+    }
+
+    .div-indexButtons {
+        margin: 40px auto 10px;
+    }
+
+    .div-indexButtons button {
+        height: 60px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+/* ---------------------------------------  426px ------------------------------------------ */
+
+@media (min-width: 426px) {
+
+    .game-heading {
+        width: 80%;
+        font-size: 40px;
+        margin: 25px auto 0;
+    }
+
+    .img-indexDino {
+        margin: 30px auto 0;
+    }
+
+    .div-indexButtons {
+        margin: 30px auto 20px;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 70px;
+        margin: 7px auto;
+    }
+
+}
+
+/* ---------------------------------------  769px ------------------------------------------ */
+
+@media (min-width: 769px) {
+    .game-heading {
+        width: 100%;
+        font-size: 54px;
+        margin: 30px auto 0;
+    }
+
+    .img-indexDino {
+        width: 300px;
+        height: 346px;
+        margin: 40px auto 0;
+    }
+
+    .div-indexButtons {
+        flex-direction: row;
+        width: 32rem;
+        margin: 30px auto 0;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 5rem;
+        font-size: 1.2em;
+        margin: 0 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        margin-top: auto;
+    }
+}

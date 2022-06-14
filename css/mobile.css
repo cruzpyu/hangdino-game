@@ -1,0 +1,387 @@
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media (min-width: 320px) {
+    #categoria {
+        margin: 20px auto 10px;
+        font-size: 22px;
+    }
+
+    #imagem {
+        margin: 0;
+    }
+
+    #palavra-escolhida {
+        margin: 10px auto;
+    }
+
+    .letras {
+        font-size: 1em;
+    }
+
+    #teclado {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .teclas button {
+        width: 24px;
+        height: 24px;
+        margin: 4px 2px;
+        padding: 0;
+    }
+
+    .botao-voltar {
+        margin: 10px auto;
+    }
+
+    .voltar {
+        width: 25%;
+        height: 35px;
+        font-size: 0.8em;
+        margin: 5px 10px;
+    }
+
+
+    /* ----------- Modal Game Over ---------- */
+    .modal-gameover,
+    .modal-vitoria {
+        width: 80%;
+        height: 60%;
+        top: 18%;
+        left: 8%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .modal-header {
+        margin: 0;
+    }
+
+    .modal-vitoria p {
+        font-size: 24px;
+        margin: 5px auto;
+    }
+
+    .modal-gameover h2 {
+        margin: 15px auto 0;
+    }
+
+    .modal-header h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 34px;
+        line-height: 1em;
+        font-weight: 800;
+        color: #ffffff;
+    }
+
+    .modal-body {
+        width: 100%;
+        height: 20%;
+        color: #ffffff;
+        font-size: 1em;
+        margin: 5px auto;
+        padding: 0;
+    }
+
+    .modal-gameover p {
+        margin: 0 auto;
+    }
+
+    .modal-footer {
+        width: 100%;
+        border: 1px solid transparent;
+        margin: 0 auto 15px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .modal-footer button {
+        padding: 12px;
+        width: 200px;
+        margin: 3px;
+        font-size: 1em;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media (min-width: 376px) {
+    .teclas button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #palavra-escolhida {
+        font-size: 1.3em;
+    }
+
+    .letras {
+        width: 18px;
+    }
+
+    #categoria {
+        font-size: 1.4em;
+    }
+
+    .modal-gameover {
+        height: 60%;
+    }
+
+    .modal-header {
+        margin: 10px auto 0;
+    }
+
+    .modal-gameover p {
+        margin: 8px auto 0;
+    }
+
+    .modal-footer {
+        margin: 0 auto 30px;
+    }
+
+    .modal-vitoria {
+        height: 60%;
+    }
+
+}
+
+@media (width: 384px) {
+    .modal-gameover {
+        height: 60%;
+    }
+
+    .modal-vitoria {
+        height: 60%;
+    }
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media (min-width: 414px) {
+    #categoria {
+        margin: 10px auto;
+    }
+
+    #imagem {
+        margin: 5px auto;
+    }
+
+    #teclado {
+        margin: 10px auto 5px;
+    }
+
+    .modal-gameover {
+        height: 60%;
+    }
+
+    .modal-vitoria {
+        height: 60%;
+    }
+
+    .botao-voltar {
+        margin: 5px auto;
+    }
+
+    footer {
+        position: relative;
+    }
+
+
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media (min-width: 426px) {
+    .teclas button {
+        width: 36px;
+        height: 36px;
+    }
+
+    #palavra-escolhida {
+        font-size: 1.5em;
+    }
+
+    .letras {
+        width: 20px;
+    }
+
+    #categoria {
+        font-size: 1.6em;
+    }
+
+    .modal-body {
+        margin: 0 auto 20px;
+    }
+
+    .modal-footer {
+        margin: 0 auto 15px;
+    }
+
+    /* ----------- Modal Game Over ---------- */
+    .modal-footer {
+        flex-direction: column;
+
+    }
+
+    .modal-gameover {
+        height: 60%;
+    }
+
+    .modal-vitoria {
+        height: 60%;
+    }
+
+    .modal-footer button {
+        padding: 15px;
+        width: 250px;
+        margin: 3px;
+        font-size: 1.2em;
+    }
+
+    .voltar {
+        font-size: 1em;
+        height: 40px;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    footer img {
+        margin: 8px 5px;
+        position: relative;
+    }
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media (min-width: 769px) {
+    #imagem {
+        margin: 10px auto;
+    }
+
+    #teclado {
+        margin: 20px auto 10px;
+        width: 90%;
+    }
+
+    .teclas button {
+        width: 54px;
+        height: 54px;
+        font-size: 1.8em;
+        margin: 5px;
+    }
+
+    #palavra-escolhida {
+        font-size: 2.5em;
+        margin: 5px auto;
+    }
+
+    .letras {
+        width: 35px;
+    }
+
+    #categoria {
+        font-size: 2em;
+        margin: 10px auto 0;
+    }
+
+    /* ----------- Modal Game Over ---------- */
+    .modal-gameover {
+        width: 40%;
+        height: 60%;
+        margin: auto;
+        left: 30%;
+        top: 15%;
+    }
+
+    .modal-gameover h2 {
+        margin: 30px auto;
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .modal-gameover p {
+        font-size: 1.2em;
+        margin: 8px auto 5px;
+    }
+
+    #palavraEscolhida-modal {
+        height: 33%;
+        font-size: 60px;
+        color: #F2921D;
+        margin: 8px auto 30px;
+    }
+
+    .modal-footer {
+        margin: 8px auto 30px;
+        width: 80%;
+        flex-direction: row;
+    }
+
+    .modal-footer button {
+        width: 40%;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4em;
+        line-height: 1.1em;
+    }
+
+    /* modal vitoria  */
+    .modal-vitoria {
+        width: 40%;
+        height: 60%;
+        margin-top: 30px;
+        left: 30%;
+    }
+
+    .modal-header {
+        margin: 5px auto;
+    }
+
+    .modal-header h2 {
+        width: 100%;
+        font-size: 60px;
+        font-weight: 800;
+        color: #ffffff;
+        margin: 30px auto 0;
+    }
+
+    .modal-body {
+        font-size: 1.2em;
+        margin: 10px auto 0;
+    }
+
+    .modal-vitoria p {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    /* botões voltar e recarregar */
+
+    .botao-voltar {
+        width: 100%;
+        margin: 0px auto 5px;
+    }
+
+    .voltar {
+        width: 7%;
+        height: 40px;
+        font-size: 1.3em;
+    }
+
+    .voltar a {
+        font-size: 16px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}

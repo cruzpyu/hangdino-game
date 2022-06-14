@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #005F8C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Imagem */
+#imagem {
+    background-image: url("../img/dino0.png");
+    background-repeat: no-repeat;
+    height: 288px;
+    width: 234px;
+    margin: 0;
+}
+
+/* Palavra escolhida */
+#palavra-escolhida {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.letras {
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid #239BD9;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Teclado */
+#teclado {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teclas button {
+    cursor: pointer;
+    box-shadow: 0px 1px 5px #0c2836;
+    border-radius: 5px;
+    margin: 3px 5px 5px;
+    border: 2px solid transparent;
+    color: #005F8C;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.verde {
+    background-color: #0FD9AD;
+    color: #ffffff;
+}
+
+.vermelho {
+    background-color: #E64007;
+    color: #ffffff;
+}
+
+.teclas button:hover {
+    transform: scale(1.1);
+}
+
+.teclas button:disabled {
+    cursor: not-allowed;
+}
+
+/* Categoria */
+
+#categoria {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* modal game over */
+.modal-gameover {
+    background-color: #e63f07;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+}
+
+.modal-header {
+    border: 1px solid transparent;
+}
+
+.modal-header h2 {
+    color: #ffffff;
+}
+
+.modal-body {
+    color: #ffffff;
+    align-items: center;
+}
+
+#palavraEscolhida-modal {
+    width: 100%;
+    height: 15%;
+    font-weight: 800;
+}
+
+.modal-footer {
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.modal-footer button {
+    border-radius: 10px;
+    border: 2px solid #A63D17;
+    font-weight: 800;
+    color: #A63D17;
+    box-shadow: 0 0 3px dimgray;
+    background-color: #F2921D;
+}
+
+.modal-footer button:hover {
+    transform: scale(1.1);
+}
+
+/* --------------------------------------------MODAL VITORIA----------------------------------------------------- */
+
+.modal-vitoria {
+    background-color: #0FD9AD;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    box-shadow: 0 0 5px #042820;
+}
+
+.modal-vitoria button {
+    box-shadow: 0 0 5px #04352a;
+}
+
+.menu a {
+    color: #A63D17;
+    text-decoration: none;
+}
+
+/* --------------------------------------------BOTÃO VOLTAR ----------------------------------------------------- */
+.botao-voltar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.voltar {
+    width: 100%;
+    height: 50px;
+    margin: 25px 20px;
+    font-family: 'poppins',
+        sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #004466;
+    border: solid transparent;
+    box-shadow: 2px 2px #002E45;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    transform: scale(1.1);
+}
+
+.voltar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    bottom: 0;
+    flex-shrink: 0;
+    background-color: #004466;
+    text-align: center;
+    height: 80px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.icones-redes {
+    margin-top: 5px;
+}
+
+.icones-redes a {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 7px;
+    font-size: 1.5em;
+}
+
+.icones-redes a:hover {
+    color: rgba(255, 255, 255)
+}
