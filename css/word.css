@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new-word__container {
+    height: 100vh;
+    background-color: #005F8C;
+}
+.titulo-novaPalavra {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 54px;
+    color: #ff9a1f;
+    margin: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #002e45;
+}
+
+.div-novaPalavraDino {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.img-novaPalavraDino {
+    width: 234px;
+    height: 288px;
+}
+
+#formulario-novaPalavra {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: left;
+    margin: 40px auto 20px;
+}
+
+label {
+    font-size: 1em;
+    color: #f2f2f2;
+}
+
+#formulario-novaPalavra input {
+    width: 45%;
+    margin: 15px auto 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 1.1em;
+    background-color: #f2f2f2;
+}
+
+.buttons-novaPalavra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.buttons-novaPalavra button {
+    width: 15%;
+    height: 60px;
+    margin: 10px;
+    font-family: "poppins", sans-serif;
+    font-size: 1.1em;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #004466;
+    border: solid transparent;
+    box-shadow: 2px 2px #002e45;
+    color: #ff9a1f;
+    cursor: pointer;
+}
+
+.buttons-novaPalavra button:hover {
+    transform: scale(1.1);
+}
+
+.buttons-novaPalavra a {
+    text-decoration: none;
+    color: #ff9a1f;
+}

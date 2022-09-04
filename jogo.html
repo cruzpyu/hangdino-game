@@ -1,110 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/game.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/game-responsive.css" />
+    <link rel="stylesheet" href="./css/game-modal.css" />
+    <link rel="stylesheet" href="./css/game-modal-responsive.css" />
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/6a705fec4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>The HangDino Game</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/jogo.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <script src="https://kit.fontawesome.com/6a705fec4a.js" crossorigin="anonymous"></script>
-    <title>HangDino</title>
-</head>
-
-<body>
-    <div class="container">
-
+  <body>
+    <div class="game__container">
+      <div class="container">
         <div id="categoria"></div>
 
         <div id="imagem">
-            <div></div>
+          <div></div>
         </div>
+      </div>
 
-    </div>
+      <div id="palavra-escolhida"></div>
 
-    <div id="palavra-escolhida"></div>
-
-    <div id="teclado">
+      <div id="teclado">
         <div class="teclas">
-            <button id="tecla-A" class="letter" onclick="identificaClick('A')">A</button>
-            <button id="tecla-B" class="letter" onclick="identificaClick('B')">B</button>
-            <button id="tecla-C" class="letter" onclick="identificaClick('C')">C</button>
-            <button id="tecla-D" class="letter" onclick="identificaClick('D')">D</button>
-            <button id="tecla-E" class="letter" onclick="identificaClick('E')">E</button>
-            <button id="tecla-F" class="letter" onclick="identificaClick('F')">F</button>
-            <button id="tecla-G" class="letter" onclick="identificaClick('G')">G</button>
-            <button id="tecla-H" class="letter" onclick="identificaClick('H')">H</button>
-            <button id="tecla-I" class="letter" onclick="identificaClick('I')">I</button>
+          <button id="tecla-A" class="letter" onclick="identificaClick('A')">
+            A
+          </button>
+          <button id="tecla-B" class="letter" onclick="identificaClick('B')">
+            B
+          </button>
+          <button id="tecla-C" class="letter" onclick="identificaClick('C')">
+            C
+          </button>
+          <button id="tecla-D" class="letter" onclick="identificaClick('D')">
+            D
+          </button>
+          <button id="tecla-E" class="letter" onclick="identificaClick('E')">
+            E
+          </button>
+          <button id="tecla-F" class="letter" onclick="identificaClick('F')">
+            F
+          </button>
+          <button id="tecla-G" class="letter" onclick="identificaClick('G')">
+            G
+          </button>
+          <button id="tecla-H" class="letter" onclick="identificaClick('H')">
+            H
+          </button>
+          <button id="tecla-I" class="letter" onclick="identificaClick('I')">
+            I
+          </button>
         </div>
         <div class="teclas">
-            <button id="tecla-J" class="letter" onclick="identificaClick('J')">J</button>
-            <button id="tecla-K" class="letter" onclick="identificaClick('K')">K</button>
-            <button id="tecla-L" class="letter" onclick="identificaClick('L')">L</button>
-            <button id="tecla-M" class="letter" onclick="identificaClick('M')">M</button>
-            <button id="tecla-N" class="letter" onclick="identificaClick('N')">N</button>
-            <button id="tecla-O" class="letter" onclick="identificaClick('O')">O</button>
-            <button id="tecla-P" class="letter" onclick="identificaClick('P')">P</button>
-            <button id="tecla-Q" class="letter" onclick="identificaClick('Q')">Q</button>
-            <button id="tecla-R" class="letter" onclick="identificaClick('R')">R</button>
+          <button id="tecla-J" class="letter" onclick="identificaClick('J')">
+            J
+          </button>
+          <button id="tecla-K" class="letter" onclick="identificaClick('K')">
+            K
+          </button>
+          <button id="tecla-L" class="letter" onclick="identificaClick('L')">
+            L
+          </button>
+          <button id="tecla-M" class="letter" onclick="identificaClick('M')">
+            M
+          </button>
+          <button id="tecla-N" class="letter" onclick="identificaClick('N')">
+            N
+          </button>
+          <button id="tecla-O" class="letter" onclick="identificaClick('O')">
+            O
+          </button>
+          <button id="tecla-P" class="letter" onclick="identificaClick('P')">
+            P
+          </button>
+          <button id="tecla-Q" class="letter" onclick="identificaClick('Q')">
+            Q
+          </button>
+          <button id="tecla-R" class="letter" onclick="identificaClick('R')">
+            R
+          </button>
         </div>
         <div class="teclas">
-            <button id="tecla-S" class="letter" onclick="identificaClick('S')">S</button>
-            <button id="tecla-T" class="letter" onclick="identificaClick('T')">T</button>
-            <button id="tecla-U" class="letter" onclick="identificaClick('U')">U</button>
-            <button id="tecla-V" class="letter" onclick="identificaClick('V')">V</button>
-            <button id="tecla-W" class="letter" onclick="identificaClick('W')">W</button>
-            <button id="tecla-X" class="letter" onclick="identificaClick('X')">X</button>
-            <button id="tecla-Y" class="letter" onclick="identificaClick('Y')">Y</button>
-            <button id="tecla-Z" class="letter" onclick="identificaClick('Z')">Z</button>
-
+          <button id="tecla-S" class="letter" onclick="identificaClick('S')">
+            S
+          </button>
+          <button id="tecla-T" class="letter" onclick="identificaClick('T')">
+            T
+          </button>
+          <button id="tecla-U" class="letter" onclick="identificaClick('U')">
+            U
+          </button>
+          <button id="tecla-V" class="letter" onclick="identificaClick('V')">
+            V
+          </button>
+          <button id="tecla-W" class="letter" onclick="identificaClick('W')">
+            W
+          </button>
+          <button id="tecla-X" class="letter" onclick="identificaClick('X')">
+            X
+          </button>
+          <button id="tecla-Y" class="letter" onclick="identificaClick('Y')">
+            Y
+          </button>
+          <button id="tecla-Z" class="letter" onclick="identificaClick('Z')">
+            Z
+          </button>
         </div>
-    </div>
+      </div>
 
-    <div class="botao-voltar">
+      <div class="botao-voltar">
         <button class="voltar" id="btn-reiniciar">☄️</button>
         <button class="voltar"><a href="index.html">Voltar</a></button>
-    </div>
+      </div>
 
-    <div class="modal-gameover" id="gameOver">
+      <div class="modal-gameover" id="gameOver">
         <div class="modal-header">
-            <h2 class="modal-title" id="exampleModalLabel">GAME OVER</h2>
+          <h2 class="modal-title" id="exampleModalLabel">GAME OVER</h2>
         </div>
         <div class="modal-body" id="modalBodyGO">
-            <p>a palavra correta era</p>
-            <h2 id="palavraEscolhida-modal"></h2>
+          <p>a palavra correta era</p>
+          <h2 id="palavraEscolhida-modal"></h2>
         </div>
         <div class="modal-footer">
-            <button class="jogar-novamente" onclick="playAgain(event)">Jogar novamente</button>
-            <button class="menu"><a href="index.html">Menu</a></button>
+          <button class="jogar-novamente" onclick="playAgain(event)">
+            Jogar novamente
+          </button>
+          <button class="menu"><a href="index.html">Menu</a></button>
         </div>
-    </div>
+      </div>
 
-    <div class="modal-vitoria" id="youWin">
+      <div class="modal-vitoria" id="youWin">
         <div class="modal-header">
-            <h2 class="modal-title" id="exampleModalLabel">VOCÊ VENCEU!</h2>
+          <h2 class="modal-title" id="exampleModalLabel">VOCÊ VENCEU!</h2>
         </div>
         <div class="modal-body">
-            <p>Parabéns!!</p>
+          <p>Parabéns!!</p>
         </div>
         <div class="modal-footer">
-            <button class="jogar-novamente" onclick="playAgain(event)">Jogar novamente</button>
-            <button class="menu"><a href="index.html">Menu</a></button>
+          <button class="jogar-novamente" onclick="playAgain(event)">
+            Jogar novamente
+          </button>
+          <button class="menu"><a href="index.html">Menu</a></button>
         </div>
-
+      </div>
     </div>
 
-    <footer>
-        <div class="icones-redes">
-            <a href="https://www.linkedin.com/in/yullie/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/cruzpyu"><i class="fa-brands fa-github"></i></a>
-        </div>
-        <p>&copy; The HangDino Game</p>
-        <p>Desenvolvido por Yu</p>
-    </footer>
+    <footer class="fix">
+      <p>Desenvolvido por  <a href="https://github.com/cruzpyu">Yullie Cruz</a></p>
+  </footer>
     <script src="js\jogo.js"></script>
     <script src="js\novaPalavra.js"></script>
-</body>
-
+  </body>
 </html>

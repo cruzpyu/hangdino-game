@@ -1,0 +1,178 @@
+@media (min-width: 320px) {
+    .titulo-novaPalavra {
+        width: 100%;
+        margin: 15px auto 0;
+        font-size: 32px;
+    }
+
+    #formulario-novaPalavra {
+        margin: 20px auto 0;
+        width: 100%;
+    }
+
+    #formulario-novaPalavra input {
+        width: 80%;
+        margin-top: 2px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    label {
+        margin: 10px 0 2px 33px;
+        width: 80%;
+    }
+
+    .buttons-novaPalavra {
+        flex-direction: column;
+        margin: 8px auto;
+    }
+
+    .buttons-novaPalavra button {
+        width: 50%;
+        margin: 5px auto;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .div-novaPalavraDino {
+        margin: 15px;
+    }
+    .img-novaPalavraDino {
+        width: 60%;
+        height: 60%;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 375px) {
+    .titulo-novaPalavra {
+        width: 80%;
+        line-height: 1em;
+        font-size: 40px;
+        margin: 30px auto 5px;
+    }
+
+    .img-novaPalavraDino {
+        width: 60%;
+        height: 60%;
+        margin-bottom: 0;
+    }
+
+    .buttons-novaPalavra button {
+        margin: 5px auto;
+        width: 50%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .buttons-novaPalavra {
+        width: 100%;
+    }
+
+    label {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 414px) {
+    .titulo-novaPalavra {
+        margin: 40px auto 10px;
+    }
+
+    .img-novaPalavraDino {
+        margin: 10px auto;
+    }
+    #formulario-novaPalavra {
+        margin: 20px auto;
+    }
+    label {
+        margin-left: 43px;
+    }
+    .buttons-novaPalavra {
+        margin: 0 auto 20px;
+    }
+}
+
+@media (min-width: 426px) {
+    .titulo-novaPalavra {
+        width: 100%;
+        line-height: 1em;
+        font-size: 40px;
+        margin: 35px auto 25px;
+    }
+
+    .img-novaPalavraDino {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 0;
+    }
+
+    .buttons-novaPalavra button {
+        margin: 5px auto;
+        width: 60%;
+        font-size: 1.1em;
+        height: 50px;
+    }
+
+    #formulario-novaPalavra input {
+        font-size: 1.1em;
+        height: 45px;
+    }
+}
+
+@media (min-width: 769px) {
+    .titulo-novaPalavra {
+        width: 100%;
+        line-height: 1em;
+        font-size: 44px;
+        margin: 15px auto 0;
+    }
+
+    .img-novaPalavraDino {
+        width: 234px;
+        height: 288px;
+    }
+
+    .buttons-novaPalavra {
+        flex-direction: row;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .buttons-novaPalavra button {
+        margin: 0 15px;
+        width: 10%;
+        font-size: 1.1em;
+        height: 50px;
+    }
+
+    #formulario-novaPalavra {
+        width: 80%;
+    }
+
+    #formulario-novaPalavra input {
+        font-size: 1.1em;
+        width: 50%;
+        margin: 0 auto 5px;
+        height: 40px;
+    }
+
+    label {
+        font-size: 1em;
+        width: 50%;
+        margin-left: 310px;
+    }
+}
+@media (min-width: 1200px) {
+    .buttons-novaPalavra button {
+    margin: 2% 1%;
+        width: 15%;
+        font-size: 1.2em;
+        height: 60px;
+    }
+    
+    #formulario-novaPalavra input::placeholder {
+     font-size: .8em;
+    }
+
+}

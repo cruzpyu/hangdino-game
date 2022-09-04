@@ -1,0 +1,179 @@
+
+@media (min-width: 320px) {
+    .index-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .game-heading {
+        width: 80%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1em;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #002e45;
+        margin: 4% auto;
+    }
+
+    .div-indexDino {
+        margin: 20% auto;
+    }
+
+    .img-indexDino {
+        width: 200px;
+        height: 246px;
+        margin: 6px auto 5px;
+    }
+
+    .div-indexButtons {
+        flex-direction: column;
+        margin: 10px auto 0;
+        width: 100%;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 60px;
+        margin: 5px auto;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+}
+
+
+@media (min-width: 375px) {
+    .index-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-heading {
+        width: 90%;
+        font-size: 32px;
+        line-height: 1em;
+        margin: 0 auto 10px;
+    }
+
+    .div-indexDino {
+        margin: auto;
+    }
+
+    .img-indexDino {
+        width: 200px;
+        height: 246px;
+        margin: 10% auto;
+    }
+
+    .div-indexButtons {
+        display: flex;
+        flex-direction: column;
+        margin: 10% auto;
+        width: 100%;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 60px;
+        margin: 4% auto;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 414px) {
+    .game-heading {
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .img-indexDino {
+        margin: 15% auto;
+    }
+
+    .div-indexButtons {
+        width: 100%;
+    }
+
+    .div-indexButtons button {
+        height: 60px;
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
+
+
+@media (min-width: 426px) {
+    .game-heading {
+        width: 80%;
+        font-size: 40px;
+        margin: 25px auto 0;
+    }
+
+    .img-indexDino {
+        margin: 30px auto 0;
+    }
+
+    .div-indexButtons {
+        margin: 30px auto 20px;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 70px;
+        margin: 7px auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .game-heading {
+        width: 100%;
+        font-size: 2em;
+        margin: 40px auto 0;
+    }
+
+    .img-indexDino {
+        width: 300px;
+        height: 346px;
+        margin: 40px auto 0;
+    }
+
+    .div-indexButtons {
+        flex-direction: row;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+
+    .div-indexButtons button {
+        width: 100%;
+        height: 5rem;
+        font-size: 1em;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .div-indexButtons {
+        width: 100%;
+    }
+    .game-heading {
+        font-size: 3em;
+        margin: 2% auto;
+    }
+    .div-indexButtons {
+        width: 800px;
+        justify-content: center;
+        margin: 4% auto;
+    }
+    .div-indexButtons button {
+        width: 30%;
+        font-size: 1.2em;
+        padding: 0 2%;
+        line-height: 1.1em
+    }
+}

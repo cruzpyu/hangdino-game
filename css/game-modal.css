@@ -1,0 +1,76 @@
+/* modal game over */
+.modal-gameover {
+    background-color: #e63f07;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px #431809;
+    width: 90%;
+    left: 5%;
+}
+
+.modal-header {
+    border: 1px solid transparent;
+}
+
+.modal-header h2 {
+    color: #ffffff;
+}
+
+.modal-body {
+    color: #ffffff;
+    align-items: center;
+}
+
+#palavraEscolhida-modal {
+    width: 100%;
+    height: 15%;
+    font-weight: 800;
+    color: #f2921d;
+}
+
+.modal-footer {
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.modal-footer button {
+    border-radius: 10px;
+    border: 2px solid #A63D17;
+    font-weight: 800;
+    color: #A63D17;
+    box-shadow: 0 0 3px dimgray;
+    background-color: #F2921D;
+}
+
+.modal-footer button:hover {
+    transform: scale(1.1);
+}
+
+/* --------------------------------------------MODAL VITORIA----------------------------------------------------- */
+
+.modal-vitoria {
+    background-color: #0FD9AD;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    box-shadow: 0 0 5px #042820;
+}
+
+.modal-vitoria button {
+    box-shadow: 0 0 5px #04352a;
+}
+
+.menu a {
+    color: #A63D17;
+    text-decoration: none;
+}

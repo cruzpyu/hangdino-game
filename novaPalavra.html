@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/jogo.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/novaPalavra.css">
-    <script src="https://kit.fontawesome.com/6a705fec4a.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css  -->
+    <link rel="stylesheet" href="css/word.css" />
+    <link rel="stylesheet" href="css/word-responsive.css" />
+    <link rel="stylesheet" href="css/word-modal.css" />
+    <link rel="stylesheet" href="css/word-responsive-modal.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <title>The HangDino Game - Nova palavra</title>
-</head>
+  </head>
 
-<body>
-    <section class="container-novaPalavra">
+  <body>
+    <div class="new-word__container">
+      <h2 class="titulo-novaPalavra">Nova palavra</h2>
 
-        <header>
-            <h2 class="titulo-novaPalavra">Nova palavra</h2>
-        </header>
+      <figure class="div-novaPalavraDino">
+        <img
+          class="img-novaPalavraDino"
+          src="img/dino-contorno-b.png"
+          alt="dino enforcado com contorno preto"
+        />
+      </figure>
 
-        <main>
+      <form id="formulario-novaPalavra">
+        <label for="palavraAdd"
+          >Insira uma palavra com no máximo 10 letras</label
+        >
+        <input
+          type="text"
+          name="palavraAdd"
+          id="palavraAdd"
+          placeholder="Nova palavra"
+          pattern="^[A-ZÇa-zç]{1,11}"
+          required
+        />
+        <label for="categoriaAdd"
+          >Insira a categoria da palavra (Ex: lugares, animais, frutas)</label
+        >
+        <input
+          type="text"
+          id="categoriaAdd"
+          name="categoriaAdd"
+          placeholder="Nova categoria"
+          pattern="^[A-ZÇa-zç]{1,11}"
+          required
+        />
+      </form>
+      <div class="recadinho" id="preenchaFormulario">
+        <h2>Por favor, insira uma palavra e uma categoria!</h2>
+        <button class="btn-fechar" id="close">
+          <a href="novaPalavra.html">Fechar</a>
+        </button>
+      </div>
 
-            <figure class="div-novaPalavraDino">
-                <img class="img-novaPalavraDino" src="img/dino-contorno-b.png" alt="dino enforcado com contorno preto">
-            </figure>
-
-
-            <form id="formulario-novaPalavra">
-                <label for="palavraAdd">Insira uma palavra com no máximo 10 letras</label>
-                <input type="text" name="palavraAdd" id="palavraAdd" placeholder="Nova palavra"
-                    pattern="^[A-ZÇa-zç]{1,11}" required>
-                <label for="categoriaAdd">Insira a categoria da palavra (Ex: lugares, animais, frutas)</label>
-                <input type="text" id="categoriaAdd" name="categoriaAdd" placeholder="Nova categoria"
-                    pattern="^[A-ZÇa-zç]{1,11}" required>
-            </form>
-            <div class="recadinho" id="preenchaFormulario">
-                <h2>Por favor, insira uma palavra e uma categoria!</h2>
-                <button class="btn-fechar" id="close"><a href="novaPalavra.html">Fechar</a></button>
-            </div>
-
-
-            <div class="modal-palavraAdicionada" id="modalPalavraAdicionada">
-                <h2>A palavra foi adicionada! (:</h2>
-                <div class="buttons-whatnext">
-                    <button id="adicionarMais">
-                        <a href="novaPalavra.html">Adicionar outra palavra</a>
-                    </button>
-                    <button class="salvarJogar"><a href="jogo.html">Salvar e jogar</a></button>
-                </div>
-            </div>
-            <div class="buttons-novaPalavra">
-                <button id="adicionar-palavra">Adicionar</button>
-                <button class="menu"><a href="index.html">Menu</a></button>
-            </div>
-        </main>
-
-    </section>
-    <footer>
-        <div class="icones-redes">
-            <a href="https://www.linkedin.com/in/yullie/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/cruzpyu"><i class="fa-brands fa-github"></i></a>
+      <div class="modal-palavraAdicionada" id="modalPalavraAdicionada">
+        <h2>A palavra foi adicionada! (:</h2>
+        <div class="buttons-whatnext">
+          <button id="adicionarMais">
+            <a href="novaPalavra.html">Adicionar outra palavra</a>
+          </button>
+          <button class="salvarJogar">
+            <a href="jogo.html">Salvar e jogar</a>
+          </button>
         </div>
-        <p>&copy; The HangDino Game</p>
-        <p>Desenvolvido por Yu</p>
-    </footer>
+      </div>
+      <div class="buttons-novaPalavra">
+        <button id="adicionar-palavra">Adicionar</button>
+        <button class="menu"><a href="index.html">Menu</a></button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Desenvolvido por  <a href="https://github.com/cruzpyu">Yullie Cruz</a></p>
+  </footer>
     <script src="js\jogo.js"></script>
     <script src="js\novaPalavra.js"></script>
-</body>
-
+  </body>
 </html>

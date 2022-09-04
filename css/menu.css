@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading */
+.game-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff9a1f;
+}
+
+/* Imagem */
+.div-indexDino {
+    display: flex;
+    justify-content: center;
+}
+
+/* Botões */
+
+.div-indexButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-indexButtons button {
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+    background-color: #004466;
+    border: solid transparent;
+    box-shadow: 2px 2px #002e45;
+    color: #ff9a1f;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #ff9a1f;
+}
+
+.div-indexButtons button:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+    background-color: #004466;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 .9%;
+  
+}
+footer p {
+    font-size: 0.8em;
+    color: #e5e5e5;
+    padding-top: .9%;
+
+}
+footer a {
+    color: rgb(178, 135, 26);
+    text-decoration: none;
+}
+footer a:hover {
+    color: goldenrod;
+}
+footer a::before {
+    content: "<";
+}
+footer a::after {
+    content: "/>";
+}

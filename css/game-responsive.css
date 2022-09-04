@@ -41,7 +41,7 @@
     }
 
 
-    /* ----------- Modal Game Over ---------- */
+
     .modal-gameover,
     .modal-vitoria {
         width: 80%;
@@ -104,13 +104,9 @@
         font-size: 1em;
     }
 
-    footer {
-        position: relative;
-        bottom: 0;
-    }
+ 
 }
 
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 @media (min-width: 376px) {
     .teclas button {
         width: 30px;
@@ -187,10 +183,6 @@
         margin: 5px auto;
     }
 
-    footer {
-        position: relative;
-    }
-
 
 }
 
@@ -247,20 +239,15 @@
         height: 40px;
     }
 
-    footer p {
-        font-size: 12px;
-        line-height: 15px;
 
-    }
-
-    footer img {
-        margin: 8px 5px;
-        position: relative;
-    }
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 @media (min-width: 769px) {
+    .game__container {
+        flex-direction: column;
+        height: 100%;
+    }
     #imagem {
         margin: 10px auto;
     }
@@ -380,8 +367,35 @@
         font-size: 16px;
     }
 
-    footer {
-        position: relative;
-        bottom: 0;
+}
+
+@media (min-width: 1024px) {
+    #teclado {
+        width: 100%;
     }
+    .voltar {
+        width: 20%;
+        display: flex;
+    align-items: center;
+justify-content: center;    }
+}
+@media (min-width: 1200px) {
+    #imagem {
+        margin: 4% auto 0;
+    }
+    #palavra-escolh
+    .letras {
+        height: 62px;
+    }
+    .botao-voltar {
+        margin: .5% 3%;
+        border: 1px solid black;
+      padding-bottom: 3%
+    }
+    .voltar {
+        height: 50px;
+    }
+.fix {
+    padding: 0;
+}
 }

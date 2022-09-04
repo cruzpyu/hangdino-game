@@ -1,0 +1,88 @@
+@media (min-width: 320px) {
+    .modal-palavraAdicionada {
+        height: 50%;
+        width: 80%;
+        left: 30px;
+        top: 15%;
+    }
+    .modal-palavraAdicionada h2 {
+        font-size: 24px;
+        margin: 10px auto 0;
+    }
+    .buttons-whatnext {
+        flex-direction: column;
+        margin: 20px auto 0;
+    }
+}
+
+@media (min-width: 375px) {
+    .recadinho {
+        height: 40%;
+        position: absolute;
+        left: 40px;
+    }
+    .modal-palavraAdicionada {
+        height: 50%;
+        top: 20%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 414px) {
+    .recadinho {
+        height: 40%;
+    }
+    .modal-palavraAdicionada {
+        height: 55%;
+    }
+}
+@media (min-width: 426px) {
+    .modal-palavraAdicionada {
+        height: 60%;
+    }
+}
+@media (min-width: 769px) {
+    .recadinho {
+        width: 30%;
+        height: 50%;
+        margin-left: 33%;
+        font-size: 1.2em;
+    }
+    .recadinho h2 {
+        font-size: 32px;
+    }
+    .btn-fechar {
+        height: 70px;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .modal-palavraAdicionada {
+        width: 30%;
+        height: 50%;
+        left: 35%;
+        top: 20%;
+    }
+    .modal-palavraAdicionada h2 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .buttons-whatnext {
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        margin: 0 auto 25px;
+    }
+    .buttons-whatnext button {
+        font-size: 1.3em;
+        height: 40%;
+        width: 55%;
+    }
+}
+@media (min-width: 1200px) {
+    .buttons-whatnext {
+        width: 90%;
+    }
+    .buttons-whatnext button {
+        font-size: 1em;
+    }
+}
