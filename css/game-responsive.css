@@ -389,7 +389,6 @@ justify-content: center;    }
     }
     .botao-voltar {
         margin: .5% 3%;
-        border: 1px solid black;
       padding-bottom: 3%
     }
     .voltar {
